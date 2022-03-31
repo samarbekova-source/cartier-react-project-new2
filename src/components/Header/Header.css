@@ -17,6 +17,8 @@
   margin: 10px;
   padding-left: 15px;
   color: rgba(0, 0, 0, 0.644);
+  font-size: 14px;
+  
 }
 
 .icons {
@@ -29,6 +31,4 @@
   padding-left: 15px;
 }
 
-/* h1:hover {
-      border bottom 3px red
-   } */
+

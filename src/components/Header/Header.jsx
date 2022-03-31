@@ -2,15 +2,25 @@ import React from "react";
 import "./Header.css";
 
 import Navbar from "../Navbar/Navbar";
+import { Link } from "react-router-dom";
+import {
+  HeartOutlined,
+  ShoppingOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
 
 const Header = () => {
   return (
     <>
       <div className="header">
         <div className="a-tags">
-          <a href="#">CONTACT US</a>
+          <a style={{ textDecoration: "none", color: "grey" }} href="#">
+            CONTACT US
+          </a>
 
-          <a href="#">SERVICES</a>
+          <a style={{ textDecoration: "none", color: "grey" }} href="#">
+            SERVICES
+          </a>
         </div>
 
         <div className="logo-image">
@@ -23,15 +33,9 @@ const Header = () => {
           </Link>
         </div>
         <div className="icons">
-          <FavoriteBorderIcon
-            style={{ fontSize: "30px", color: "grey" }}
-          ></FavoriteBorderIcon>
-          <PersonOutlineIcon
-            style={{ fontSize: "30px", color: "grey" }}
-          ></PersonOutlineIcon>
-          <ShoppingBagOutlinedIcon
-            style={{ fontSize: "30px", color: "grey" }}
-          ></ShoppingBagOutlinedIcon>
+          <HeartOutlined style={{ fontSize: "25px", color: "grey" }} />
+          <UserOutlined style={{ fontSize: "25px", color: "grey" }} />
+          <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
         </div>
       </div>
       <Navbar />
