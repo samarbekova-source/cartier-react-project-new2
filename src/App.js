@@ -1,7 +1,16 @@
 import "./App.css";
 
+import JewelryContextProvider from "./contexts/jewelryContext";
+import Routing from "./Routing";
+
 function App() {
-  return <div className="App">heyyyyy guyyys its me again hi benazir</div>;
+  return (
+    <div className="App">
+      <JewelryContextProvider>
+        <Routing />
+      </JewelryContextProvider>
+    </div>
+  );
 }
 
 export default App;
