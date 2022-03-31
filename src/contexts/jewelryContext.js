@@ -24,6 +24,7 @@ const reducer = (state = INIT_STATE, action) => {
 
 const JewelryContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
+
   async function getJewelry() {
     let result = await axios(JEWELRY_API);
     console.log(result);
@@ -32,12 +33,17 @@ const JewelryContextProvider = ({ children }) => {
       payload: result,
     });
   }
+  async function deleteJewelry(id) {
+    await axios.delete(`${JEWELRY_API}/${id}`);
+    getJewelry();
+  }
 
   return (
     <jewelryContext.Provider
       value={{
         jewelry: state.jewelry,
         getJewelry,
+        deleteJewelry,
       }}
     >
       {children}
