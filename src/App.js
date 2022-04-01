@@ -2,11 +2,17 @@ import "./App.css";
 import MainPage from "./Components/MainPage/MainPage";
 import Stores from "./Components/Stores/Stores";
 
+import JewelryContextProvider from "./contexts/jewelryContext";
+import Routing from "./Routing";
+
 function App() {
   return (
     <div className="App">
-      <MainPage />
-      <Stores />
+
+      <JewelryContextProvider>
+        <Routing />
+      </JewelryContextProvider>
+
     </div>
   );
 }
