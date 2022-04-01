@@ -5,15 +5,11 @@ import "./Navbar.css";
 const Navbar = () => {
   const NAV_ITEMS = [
     {
-      title: "JEWELRY",
-      link: "/jewelry",
+      title: "JEWELRY & WATCHES",
+      link: "/jewelry&watches",
       id: 1,
     },
-    {
-      title: "WATCHES",
-      link: "/watches",
-      id: 2,
-    },
+
     {
       title: "NEWS",
       link: "/news",

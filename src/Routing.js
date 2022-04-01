@@ -1,3 +1,4 @@
+
 // import Footer from "./components/Footer/Footer";
 // import React from "react";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -36,6 +37,7 @@
 //       id: 5,
 //     },
 //   ];
+
 
 //   let ADMIN_ROUTES = [
 //     {

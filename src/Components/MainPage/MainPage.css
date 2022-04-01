@@ -16,8 +16,11 @@
 }
 
 .fourth-block-a {
+
   width: 100%;
   margin-top: 100px;
+
+
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
@@ -27,6 +30,8 @@
 
 .subscribe-a {
   width: 100%;
+
+
 }
 #btn-subscribe-a {
   background-color: black;
@@ -39,3 +44,4 @@
   width: 100%;
   height: 1px;
 }
+
