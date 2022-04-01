@@ -3,11 +3,11 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import Jewelry from "./components/Jewelry/Jewelry";
-import Watches from "./components/Watches/Watches";
+
 import News from "./components/News/News";
 import Stores from "./components/Stores/Stores";
 import AdminPage from "./pages/AdminPage";
+import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -16,24 +16,19 @@ const Routing = () => {
       id: 1,
     },
     {
-      link: "/jewelry",
-      element: <Jewelry />,
+      link: "/jewelry&watches",
+      element: <JewelryAndWatches />,
       id: 2,
-    },
-    {
-      link: "/watches",
-      element: <Watches />,
-      id: 3,
     },
     {
       link: "/news",
       element: <News />,
-      id: 4,
+      id: 3,
     },
     {
       link: "/stores",
       element: <Stores />,
-      id: 5,
+      id: 4,
     },
   ];
 

@@ -1,13 +1,23 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
+// import { useSearchParams } from "react-router-dom";
 import { jewelryContext } from "../../contexts/jewelryContext";
 
 const ProductsList = () => {
   const { getJewelry, jewelry } = useContext(jewelryContext);
+  // const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     getJewelry();
   }, []);
-  return <div>products list</div>;
+
+  useEffect(() => {
+    getJewelry();
+  }, []);
+  return (
+    <div>
+      <p>list</p>
+    </div>
+  );
 };
 
 export default ProductsList;
