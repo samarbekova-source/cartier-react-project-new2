@@ -15,7 +15,7 @@ const ProductsList = () => {
   }, []);
   return (
     <div>
-      <p>list</p>
+      <p>list chika</p>
     </div>
   );
 };
