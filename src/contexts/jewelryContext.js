@@ -1,13 +1,14 @@
 import React from "react";
 import { useReducer } from "react";
 import axios from "axios";
-import { CASE_GET_JEWELRY } from "../helpers/cases";
+import { CASE_GET_JEWELRY, CASE_GET_ONE_JEWELRY } from "../helpers/cases";
 import { JEWELRY_API } from "../helpers/consts";
 
 export const jewelryContext = React.createContext();
 
 const INIT_STATE = {
   jewelry: [],
+  oneJewelry: null,
 };
 
 const reducer = (state = INIT_STATE, action) => {
@@ -16,6 +17,11 @@ const reducer = (state = INIT_STATE, action) => {
       return {
         ...state,
         jewelry: action.payload.data,
+      };
+    case CASE_GET_ONE_JEWELRY:
+      return {
+        ...state,
+        oneJewelry: action.payload.data,
       };
     default:
       return state;
@@ -38,12 +44,27 @@ const JewelryContextProvider = ({ children }) => {
     getJewelry();
   }
 
+  async function getOneJewelry(id) {
+    let result = await axios(`${JEWELRY_API}/${id}`);
+    dispatch({
+      type: CASE_GET_ONE_JEWELRY,
+      payload: result,
+    });
+  }
+  async function createProduct(newProduct) {
+    await axios.post(JEWELRY_API, newProduct);
+    getJewelry();
+  }
+
   return (
     <jewelryContext.Provider
       value={{
         jewelry: state.jewelry,
+        oneJewelry: state.oneJewelry,
         getJewelry,
         deleteJewelry,
+        getOneJewelry,
+        createProduct,
       }}
     >
       {children}

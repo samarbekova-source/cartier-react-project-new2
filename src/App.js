@@ -1,6 +1,9 @@
 import "./App.css";
-import MainPage from "./Components/MainPage/MainPage";
-import Stores from "./Components/Stores/Stores";
+
+import "antd/dist/antd.css";
+
+
+
 
 import JewelryContextProvider from "./contexts/jewelryContext";
 import Routing from "./Routing";
