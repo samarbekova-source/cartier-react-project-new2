@@ -1,0 +1,34 @@
+.second-block-a {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left: 15px;
+}
+
+.third-block-a {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fourth-block-a {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.subscribe-a {
+  width: 100%;
+  height: 100%;
+}
+#btn-subscribe-a {
+  background-color: black;
+  color: white;
+}
