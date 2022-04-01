@@ -7,7 +7,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3a06f6b7/images/large/637708792263622224-2088245.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwd6f51c63/images/large/637708792263622224-2117876.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 1
+      "id": 1,
+      "type": "jewelry"
     },
     {
       "model": "AMULETTE DE CARTIER BRACELET, XS MODEL",
@@ -16,7 +17,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwa642fd67/images/large/637708798384376790-2116920.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3d57be2e/images/large/637708798384376790-2117664.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 2
+      "id": 2,
+      "type": "jewelry"
     },
     {
       "model": "JUSTE UN CLOU BRACELET, MEDIUM MODEL",
@@ -25,7 +27,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw6a785355/images/large/637727603889563218-2195660.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw5c5be982/images/large/637727603889563218-2195645.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 3
+      "id": 3,
+      "type": "jewelry"
     },
     {
       "model": "CLASH DE CARTIER BRACELET MEDIUM MODEL",
@@ -34,7 +37,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwd49d3233/images/large/637708809736526526-2196273.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3d00053e/images/large/637708809736526526-2196516.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 4
+      "id": 4,
+      "type": "jewelry"
     },
     {
       "model": "LOVE NECKLACE, DIAMONDS",
@@ -43,7 +47,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw29aa2b57/images/large/637708811854490373-2088249.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw80ab24ce/images/large/637708811854490373-2088530.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 5
+      "id": 5,
+      "type": "jewelry"
     },
     {
       "model": "ETINCELLE DE CARTIER RING",
@@ -52,7 +57,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwd9d0bc1a/images/large/637709036319490560-2223217.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwa333890d/images/large/637709036319490560-2223262.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 6
+      "id": 6,
+      "type": "jewelry"
     },
     {
       "model": "ESSENTIAL LINES RING",
@@ -61,7 +67,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw20e4b952/images/large/637777158017745742-2293160.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwe4765b10/images/large/637777158017745742-2293319.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 7
+      "id": 7,
+      "type": "jewelry"
     },
     {
       "model": "PASHA DE CARTIER WATCH",
@@ -70,7 +77,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7f1d705a/images/large/637719025102943193-2132255.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw422ebb6d/images/large/637719025102943193-2132276.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 8
+      "id": 8,
+      "type": "watches"
     },
     {
       "model": "TANK LOUIS CARTIER WATCH",
@@ -79,7 +87,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw6c6cf2a9/images/large/637709550337906083-2098122.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw240b75ec/images/large/637709550337906083-2098203.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 9
+      "id": 9,
+      "type": "watches"
     },
     {
       "model": "SANTOS-DUMONT WATCH",
@@ -88,7 +97,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwe5044139/images/large/637709293516618022-2098136.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw80116864/images/large/637709293516618022-2098219.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 10
+      "id": 10,
+      "type": "watches"
     },
     {
       "model": "LOVE EARRINGS",
@@ -97,7 +107,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwde8e076e/images/large/637708831897541947-2088277.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7cedd17c/images/large/637708831897541947-2088320.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 11
+      "id": 11,
+      "type": "jewelry"
     },
     {
       "model": "TRINITY EARRINGS",
@@ -106,7 +117,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwca290af3/images/large/637708713346699254-2088231.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw0e9a5d55/images/large/637708713346699254-2088304.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 12
+      "id": 12,
+      "type": "jewelry"
     },
     {
       "model": "CARESSE D’ORCHIDÉES PAR CARTIER EARRINGS",
@@ -115,7 +127,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw403db4ec/images/large/637708832214105057-2116964.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwebf8293f/images/large/637708832214105057-2117072.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-      "id": 13
+      "id": 13,
+      "type": "jewelry"
     }
   ]
 }

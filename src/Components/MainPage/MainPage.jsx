@@ -122,11 +122,12 @@ const MainPage = () => {
           </p>
         </div>
       </div>
+      <div className="line-a"></div>
 
       <div className="subscribe-a">
         <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
         <input type="text" placeholder="Email" />
-        <button id="btn-subscribe-a">SUBSCRIBE</button>
+        <button id="btn-subscribe-a">Subscribe</button>
       </div>
     </div>
   );

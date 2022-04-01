@@ -1,12 +1,10 @@
 import "./App.css";
-import MainPage from "./Components/MainPage/MainPage";
-import Stores from "./Components/Stores/Stores";
+import Routing from "./Routing";
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
-      <Stores />
+      <Routing />
     </div>
   );
 }
